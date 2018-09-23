@@ -300,14 +300,6 @@ for i in range(10):
                                                                     EN_R2_test[i]))
 
 
-
-print("alpha    coef   intercept MSE_train  MSE_test  R2_train  R2_test")
-for i in range(10):
-    print('%.3f,   %.3f,  %.3f,   %.3f,   %.3f,    %.3f,   %.3f' % (alpha_space[i], lasso_coef[i], 
-                                                                    lasso_intercept[i], lasso_MSE_train[i], 
-                                                                    lasso_MSE_test[i], lasso_R2_train[i], 
-                                                                    lasso_R2_test[i]))
-
 print("My name is Haichao Bo")
 print("My NetID is: hbo2")
 print("I hereby certify that I have read the University policy on Academic Integrity and that I am not in violation.")
